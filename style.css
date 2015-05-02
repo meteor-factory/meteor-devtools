@@ -1,0 +1,23 @@
+.devtools-overlay {
+	position: absolute;
+  display: none;
+  background-color: rgba(0, 153, 255, 0.2);
+  z-index: 99999999;
+  pointer-events: none;
+}
+
+.devtools-overlay .devtools-overlay-text {
+  position: absolute;
+  top: -30px;
+  padding: 5px;
+  background-color: red;
+  color: white;
+}
+
+.devtools-overlay-children {
+  position: absolute;
+  border: 1px solid red;
+  background-color: transparent;
+  z-index: 99999999;
+  pointer-events: none;
+}
